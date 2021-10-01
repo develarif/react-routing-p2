@@ -1,0 +1,74 @@
+#home-page .service-area,
+.team-member {
+    margin-top: 120px;
+}
+
+#home-page .team-member {
+    margin-bottom: 120px;
+}
+
+#home-page .carousel .carousel-item img {
+    height: 700px;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+#home-page .service-heading,
+.member-heading {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #606060;
+    text-align: center;
+    margin: 50px 0;
+}
+
+#home-page .services,
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+
+#home-page .service-item,
+.member {
+    background: #f8f9fa;
+    padding: 50px 40px;
+}
+
+#home-page .service-item svg {
+    background: #ed5f5e;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    color: #fff;
+}
+
+#home-page .service-item h4,
+.info h4 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #606060;
+}
+
+#home-page .service-item p,
+.info span {
+    font-weight: 300;
+    font-size: 18px;
+    color: #565656;
+    margin-top: 12px;
+}
+
+#home-page .team-members img {
+    width: 100%;
+}
+
+#home-page .member {
+    padding: 0;
+}
+
+#home-page .info {
+    text-align: center;
+    padding-bottom: 30px;
+}

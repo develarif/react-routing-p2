@@ -1,0 +1,14 @@
+#contact-page .hero {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    background: url('../../imgs/banner.jpg');
+}
+
+#contact-page img {
+    width: 100%;
+}
+
+#contact-page .contact-form {
+    margin: 100px 0;
+}

@@ -1,0 +1,64 @@
+#blog-page .blog-hero {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    background: url('../../imgs/banner.jpg');
+    margin-bottom: 100px;
+}
+
+#blog-page .blog-hero h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 35px;
+    color: #ed5f5e;
+}
+
+#blog-page .blog-posts .blog {
+    display: flex;
+    margin-bottom: 50px;
+    box-shadow: 0 0 5px 1px #d8d8d8;
+}
+
+#blog-page .blog-posts .blog .blog-thumb > img {
+    width: 350px;
+    height: 100%;
+    object-fit: cover;
+}
+
+#blog-page .blog-posts .blog .blog-post {
+    padding: 40px;
+}
+
+#blog-page .blog-posts .blog .blog-post > h2 {
+    color: #606060;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#blog-page .blog-posts .blog .blog-post > .desc {
+    color: #606060;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+#blog-page .blog-posts .blog .blog-post > p {
+    color: #606060;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+}
+
+#blog-page .blog-posts .blog .blog-post > a {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    background: #ed5f5e;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px 18px;
+}
